@@ -10,13 +10,6 @@ import pin from '@/assets/images/pin.svg';
 const PropertyMap = ({ property }) => {
   const [lat, setLat] = useState(null);
   const [lng, setLng] = useState(null);
-  const [viewport, setViewport] = useState({
-    latitude: 0,
-    longitude: 0,
-    zoom: 12,
-    width: '100%',
-    height: '500px',
-  });
   const [loading, setLoading] = useState(true);
   const [geocodeError, setGeocodeError] = useState(false);
 
