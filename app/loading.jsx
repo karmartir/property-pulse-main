@@ -6,7 +6,7 @@ const override = {
   margin: '100px auto',
 };
 
-const LoadingPage = ({ loading }) => {
+const LoadingPage = () => {
   return (
     <ClipLoader
       color='#3b82f6'
